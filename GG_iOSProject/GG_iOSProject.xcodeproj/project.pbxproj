@@ -8,13 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		0440D410208D7BA400FF1D5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0440D40F208D7BA400FF1D5E /* AppDelegate.m */; };
-		0440D413208D7BA400FF1D5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0440D412208D7BA400FF1D5E /* ViewController.m */; };
-		0440D416208D7BA400FF1D5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0440D414208D7BA400FF1D5E /* Main.storyboard */; };
 		0440D418208D7BA500FF1D5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0440D417208D7BA500FF1D5E /* Assets.xcassets */; };
-		0440D41B208D7BA500FF1D5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0440D419208D7BA500FF1D5E /* LaunchScreen.storyboard */; };
 		0440D41E208D7BA500FF1D5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0440D41D208D7BA500FF1D5E /* main.m */; };
 		0440D428208D7BA500FF1D5E /* GG_iOSProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0440D427208D7BA500FF1D5E /* GG_iOSProjectTests.m */; };
 		0440D433208D7BA500FF1D5E /* GG_iOSProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0440D432208D7BA500FF1D5E /* GG_iOSProjectUITests.m */; };
+		04439F8F20A13F2F00798568 /* GGIntroductoryPagesHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04439F8E20A13F2F00798568 /* GGIntroductoryPagesHelper.m */; };
+		04439F9320A1413F00798568 /* GGIntroductoryPagesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04439F9220A1413F00798568 /* GGIntroductoryPagesView.m */; };
+		04439F9820A1547800798568 /* intro_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04439F9420A1547700798568 /* intro_0.jpg */; };
+		04439F9920A1547800798568 /* intro_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04439F9520A1547800798568 /* intro_1.jpg */; };
+		04439F9A20A1547800798568 /* intro_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04439F9620A1547800798568 /* intro_2.jpg */; };
+		04439F9B20A1547800798568 /* intro_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04439F9720A1547800798568 /* intro_3.jpg */; };
+		04439F9E20A1761200798568 /* GGIntroductoryPagesGIFOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04439F9D20A1761200798568 /* GGIntroductoryPagesGIFOperation.m */; };
+		04439FA220A179C300798568 /* GGAdvertisingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04439FA120A179C300798568 /* GGAdvertisingHelper.m */; };
+		04439FA520A179D600798568 /* GGAdvertisingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04439FA420A179D600798568 /* GGAdvertisingView.m */; };
+		04439FAD20A18B3000798568 /* JPFPSStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 04439FAC20A18B3000798568 /* JPFPSStatus.m */; };
+		04439FB120A1936300798568 /* GGUmengHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04439FB020A1936300798568 /* GGUmengHelper.m */; };
+		04439FB420A1A48600798568 /* GGBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04439FB320A1A48600798568 /* GGBaseViewController.m */; };
 		109A07A937C681E82AD7864E /* libPods-GG_iOSProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23D8803416334F29F05B3867 /* libPods-GG_iOSProject.a */; };
 /* End PBXBuildFile section */
 
@@ -39,11 +48,7 @@
 		0440D40B208D7BA400FF1D5E /* GG_iOSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GG_iOSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0440D40E208D7BA400FF1D5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0440D40F208D7BA400FF1D5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0440D411208D7BA400FF1D5E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0440D412208D7BA400FF1D5E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0440D415208D7BA400FF1D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0440D417208D7BA500FF1D5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0440D41A208D7BA500FF1D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0440D41C208D7BA500FF1D5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0440D41D208D7BA500FF1D5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0440D423208D7BA500FF1D5E /* GG_iOSProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GG_iOSProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +57,26 @@
 		0440D42E208D7BA500FF1D5E /* GG_iOSProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GG_iOSProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0440D432208D7BA500FF1D5E /* GG_iOSProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GG_iOSProjectUITests.m; sourceTree = "<group>"; };
 		0440D434208D7BA500FF1D5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04439F8D20A13F2F00798568 /* GGIntroductoryPagesHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGIntroductoryPagesHelper.h; sourceTree = "<group>"; };
+		04439F8E20A13F2F00798568 /* GGIntroductoryPagesHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGIntroductoryPagesHelper.m; sourceTree = "<group>"; };
+		04439F9120A1413F00798568 /* GGIntroductoryPagesView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGIntroductoryPagesView.h; sourceTree = "<group>"; };
+		04439F9220A1413F00798568 /* GGIntroductoryPagesView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGIntroductoryPagesView.m; sourceTree = "<group>"; };
+		04439F9420A1547700798568 /* intro_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = intro_0.jpg; sourceTree = "<group>"; };
+		04439F9520A1547800798568 /* intro_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = intro_1.jpg; sourceTree = "<group>"; };
+		04439F9620A1547800798568 /* intro_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = intro_2.jpg; sourceTree = "<group>"; };
+		04439F9720A1547800798568 /* intro_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = intro_3.jpg; sourceTree = "<group>"; };
+		04439F9C20A1761200798568 /* GGIntroductoryPagesGIFOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGIntroductoryPagesGIFOperation.h; sourceTree = "<group>"; };
+		04439F9D20A1761200798568 /* GGIntroductoryPagesGIFOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGIntroductoryPagesGIFOperation.m; sourceTree = "<group>"; };
+		04439FA020A179C300798568 /* GGAdvertisingHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGAdvertisingHelper.h; sourceTree = "<group>"; };
+		04439FA120A179C300798568 /* GGAdvertisingHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGAdvertisingHelper.m; sourceTree = "<group>"; };
+		04439FA320A179D600798568 /* GGAdvertisingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGAdvertisingView.h; sourceTree = "<group>"; };
+		04439FA420A179D600798568 /* GGAdvertisingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGAdvertisingView.m; sourceTree = "<group>"; };
+		04439FAB20A18B3000798568 /* JPFPSStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPFPSStatus.h; sourceTree = "<group>"; };
+		04439FAC20A18B3000798568 /* JPFPSStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPFPSStatus.m; sourceTree = "<group>"; };
+		04439FAF20A1936300798568 /* GGUmengHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGUmengHelper.h; sourceTree = "<group>"; };
+		04439FB020A1936300798568 /* GGUmengHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGUmengHelper.m; sourceTree = "<group>"; };
+		04439FB220A1A48600798568 /* GGBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGBaseViewController.h; sourceTree = "<group>"; };
+		04439FB320A1A48600798568 /* GGBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGBaseViewController.m; sourceTree = "<group>"; };
 		053CFFC01C63525B04CD472A /* Pods-GG_iOSProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GG_iOSProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GG_iOSProject/Pods-GG_iOSProject.debug.xcconfig"; sourceTree = "<group>"; };
 		23D8803416334F29F05B3867 /* libPods-GG_iOSProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GG_iOSProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F1933953208489214E24084 /* Pods-GG_iOSProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GG_iOSProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-GG_iOSProject/Pods-GG_iOSProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -108,15 +133,15 @@
 		0440D40D208D7BA400FF1D5E /* GG_iOSProject */ = {
 			isa = PBXGroup;
 			children = (
+				04439F8C20A13EF000798568 /* Lib */,
 				0440D40E208D7BA400FF1D5E /* AppDelegate.h */,
 				0440D40F208D7BA400FF1D5E /* AppDelegate.m */,
-				0440D411208D7BA400FF1D5E /* ViewController.h */,
-				0440D412208D7BA400FF1D5E /* ViewController.m */,
-				0440D414208D7BA400FF1D5E /* Main.storyboard */,
+				04439FB220A1A48600798568 /* GGBaseViewController.h */,
+				04439FB320A1A48600798568 /* GGBaseViewController.m */,
 				0440D417208D7BA500FF1D5E /* Assets.xcassets */,
-				0440D419208D7BA500FF1D5E /* LaunchScreen.storyboard */,
 				0440D41C208D7BA500FF1D5E /* Info.plist */,
 				0440D41D208D7BA500FF1D5E /* main.m */,
+				04439FA920A18AB700798568 /* Resources */,
 			);
 			path = GG_iOSProject;
 			sourceTree = "<group>";
@@ -137,6 +162,70 @@
 				0440D434208D7BA500FF1D5E /* Info.plist */,
 			);
 			path = GG_iOSProjectUITests;
+			sourceTree = "<group>";
+		};
+		04439F8C20A13EF000798568 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				04439FAE20A1931500798568 /* UMengHelper(友盟相关) */,
+				04439FAA20A18B3000798568 /* JPFPSStatus(FPS层) */,
+				04439F9F20A1799100798568 /* advertising(广告页) */,
+				04439F9020A13F4900798568 /* IntroductoryPages(引导页) */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		04439F9020A13F4900798568 /* IntroductoryPages(引导页) */ = {
+			isa = PBXGroup;
+			children = (
+				04439F8D20A13F2F00798568 /* GGIntroductoryPagesHelper.h */,
+				04439F8E20A13F2F00798568 /* GGIntroductoryPagesHelper.m */,
+				04439F9120A1413F00798568 /* GGIntroductoryPagesView.h */,
+				04439F9220A1413F00798568 /* GGIntroductoryPagesView.m */,
+				04439F9C20A1761200798568 /* GGIntroductoryPagesGIFOperation.h */,
+				04439F9D20A1761200798568 /* GGIntroductoryPagesGIFOperation.m */,
+			);
+			path = "IntroductoryPages(引导页)";
+			sourceTree = "<group>";
+		};
+		04439F9F20A1799100798568 /* advertising(广告页) */ = {
+			isa = PBXGroup;
+			children = (
+				04439FA020A179C300798568 /* GGAdvertisingHelper.h */,
+				04439FA120A179C300798568 /* GGAdvertisingHelper.m */,
+				04439FA320A179D600798568 /* GGAdvertisingView.h */,
+				04439FA420A179D600798568 /* GGAdvertisingView.m */,
+			);
+			path = "advertising(广告页)";
+			sourceTree = "<group>";
+		};
+		04439FA920A18AB700798568 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04439F9420A1547700798568 /* intro_0.jpg */,
+				04439F9520A1547800798568 /* intro_1.jpg */,
+				04439F9620A1547800798568 /* intro_2.jpg */,
+				04439F9720A1547800798568 /* intro_3.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		04439FAA20A18B3000798568 /* JPFPSStatus(FPS层) */ = {
+			isa = PBXGroup;
+			children = (
+				04439FAB20A18B3000798568 /* JPFPSStatus.h */,
+				04439FAC20A18B3000798568 /* JPFPSStatus.m */,
+			);
+			path = "JPFPSStatus(FPS层)";
+			sourceTree = "<group>";
+		};
+		04439FAE20A1931500798568 /* UMengHelper(友盟相关) */ = {
+			isa = PBXGroup;
+			children = (
+				04439FAF20A1936300798568 /* GGUmengHelper.h */,
+				04439FB020A1936300798568 /* GGUmengHelper.m */,
+			);
+			path = "UMengHelper(友盟相关)";
 			sourceTree = "<group>";
 		};
 		2E4A687631CDD4E151715664 /* Pods */ = {
@@ -261,9 +350,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0440D41B208D7BA500FF1D5E /* LaunchScreen.storyboard in Resources */,
 				0440D418208D7BA500FF1D5E /* Assets.xcassets in Resources */,
-				0440D416208D7BA400FF1D5E /* Main.storyboard in Resources */,
+				04439F9820A1547800798568 /* intro_0.jpg in Resources */,
+				04439F9920A1547800798568 /* intro_1.jpg in Resources */,
+				04439F9B20A1547800798568 /* intro_3.jpg in Resources */,
+				04439F9A20A1547800798568 /* intro_2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,10 +408,7 @@
 				"${PODS_ROOT}/MOFSPickerManager/MOFSPickerManagerDemo/MOFSPickerManager/province_data.xml",
 				"${PODS_ROOT}/MagicWindowSDK/MagicWindowSDK/MagicWindowSDK/MagicWindow.bundle",
 				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
-				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle",
-				"${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/QQ/QQSDK/TencentOpenApi_IOS_Bundle.bundle",
-				"${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/WeiboSDK.bundle",
-				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialUI/UMSocialSDKResources.bundle",
+				"${PODS_ROOT}/UMCShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle",
 				"${PODS_ROOT}/ZFPlayer/ZFPlayer/ZFPlayer.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -333,9 +421,6 @@
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/province_data.xml",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MagicWindow.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKPromptResources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TencentOpenApi_IOS_Bundle.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeiboSDK.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResources.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZFPlayer.bundle",
 			);
@@ -351,9 +436,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0440D413208D7BA400FF1D5E /* ViewController.m in Sources */,
+				04439F9E20A1761200798568 /* GGIntroductoryPagesGIFOperation.m in Sources */,
 				0440D41E208D7BA500FF1D5E /* main.m in Sources */,
+				04439F8F20A13F2F00798568 /* GGIntroductoryPagesHelper.m in Sources */,
+				04439F9320A1413F00798568 /* GGIntroductoryPagesView.m in Sources */,
+				04439FA220A179C300798568 /* GGAdvertisingHelper.m in Sources */,
+				04439FB420A1A48600798568 /* GGBaseViewController.m in Sources */,
 				0440D410208D7BA400FF1D5E /* AppDelegate.m in Sources */,
+				04439FB120A1936300798568 /* GGUmengHelper.m in Sources */,
+				04439FA520A179D600798568 /* GGAdvertisingView.m in Sources */,
+				04439FAD20A18B3000798568 /* JPFPSStatus.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,25 +479,6 @@
 			targetProxy = 0440D42F208D7BA500FF1D5E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		0440D414208D7BA400FF1D5E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0440D415208D7BA400FF1D5E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0440D419208D7BA500FF1D5E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0440D41A208D7BA500FF1D5E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0440D435208D7BA500FF1D5E /* Debug */ = {
@@ -526,10 +599,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 36TU8BA6F5;
 				INFOPLIST_FILE = GG_iOSProject/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.LeShare.www.EnjoyVillage.GG-iOSProject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -541,10 +618,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 36TU8BA6F5;
 				INFOPLIST_FILE = GG_iOSProject/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.LeShare.www.EnjoyVillage.GG-iOSProject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -555,7 +636,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 36TU8BA6F5;
 				INFOPLIST_FILE = GG_iOSProjectTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.LeShare.www.EnjoyVillage.GG-iOSProjectTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -570,7 +655,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 36TU8BA6F5;
 				INFOPLIST_FILE = GG_iOSProjectTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.LeShare.www.EnjoyVillage.GG-iOSProjectTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -584,7 +673,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 36TU8BA6F5;
 				INFOPLIST_FILE = GG_iOSProjectUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.LeShare.www.EnjoyVillage.GG-iOSProjectUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -598,7 +691,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 36TU8BA6F5;
 				INFOPLIST_FILE = GG_iOSProjectUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.LeShare.www.EnjoyVillage.GG-iOSProjectUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

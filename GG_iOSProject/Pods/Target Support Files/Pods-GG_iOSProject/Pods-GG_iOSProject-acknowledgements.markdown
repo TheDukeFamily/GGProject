@@ -797,14 +797,29 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-## UMengAnalytics
+## UMCAnalytics
 
-Copyright 2011 - 2015 UMeng.com. All rights reserved.
+Copyright 2011 - 2018 umeng.com. All rights reserved.
 
 
-## UMengUShare
+## UMCCommon
 
-Copyright 2011 - 2018 UMeng.com. All rights reserved.
+Copyright 2011 - 2018 umeng.com. All rights reserved.
+
+
+## UMCPush
+
+Copyright 2011 - 2018 umeng.com. All rights reserved.
+
+
+## UMCSecurityPlugins
+
+Copyright 2011 - 2018 umeng.com. All rights reserved.
+
+
+## UMCShare
+
+Copyright 2011 - 2018 umeng.com. All rights reserved.
 
 
 ## WebViewJavascriptBridge
