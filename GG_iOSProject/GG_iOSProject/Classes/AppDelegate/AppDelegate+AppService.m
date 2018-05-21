@@ -8,14 +8,15 @@
 
 #import "AppDelegate+AppService.h"
 #import "GGTabBarController.h"
+#import "testViewController.h"
 
 @implementation AppDelegate (AppService)
 
 - (void)initWindow{
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [[GGTabBarController alloc] init];
     [self.window makeKeyAndVisible];
+    self.window.rootViewController = [[GGTabBarController alloc] init];
     //避免在一个界面上同时点击多个UIButton导致同时响应多个方法
     [[UIButton appearance] setExclusiveTouch:YES];
     if (@available(iOS 11.0, *)) {

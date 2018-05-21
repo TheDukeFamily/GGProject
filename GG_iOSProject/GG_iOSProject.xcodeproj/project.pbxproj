@@ -49,6 +49,10 @@
 		04850EC520B2625E0059502E /* GGNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04850EC420B2625E0059502E /* GGNewViewController.m */; };
 		04850EC820B2626F0059502E /* GGMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04850EC720B2626F0059502E /* GGMessageViewController.m */; };
 		04850ECB20B2627D0059502E /* GGCasesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04850ECA20B2627D0059502E /* GGCasesViewController.m */; };
+		04850ECF20B273980059502E /* GGTestRefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04850ECE20B273980059502E /* GGTestRefreshTableViewController.m */; };
+		04850ED220B2A3660059502E /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04850ED120B2A3660059502E /* testViewController.m */; };
+		04850F5120B2AF160059502E /* GGAnimationNavBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04850F5020B2AF160059502E /* GGAnimationNavBarViewController.m */; };
+		04850F5420B2C4A00059502E /* GGListExpandHideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04850F5320B2C4A00059502E /* GGListExpandHideViewController.m */; };
 		109A07A937C681E82AD7864E /* libPods-GG_iOSProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23D8803416334F29F05B3867 /* libPods-GG_iOSProject.a */; };
 /* End PBXBuildFile section */
 
@@ -154,6 +158,14 @@
 		04850EC720B2626F0059502E /* GGMessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGMessageViewController.m; sourceTree = "<group>"; };
 		04850EC920B2627D0059502E /* GGCasesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGCasesViewController.h; sourceTree = "<group>"; };
 		04850ECA20B2627D0059502E /* GGCasesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGCasesViewController.m; sourceTree = "<group>"; };
+		04850ECD20B273980059502E /* GGTestRefreshTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGTestRefreshTableViewController.h; sourceTree = "<group>"; };
+		04850ECE20B273980059502E /* GGTestRefreshTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGTestRefreshTableViewController.m; sourceTree = "<group>"; };
+		04850ED020B2A3660059502E /* testViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
+		04850ED120B2A3660059502E /* testViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
+		04850F4F20B2AF160059502E /* GGAnimationNavBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGAnimationNavBarViewController.h; sourceTree = "<group>"; };
+		04850F5020B2AF160059502E /* GGAnimationNavBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGAnimationNavBarViewController.m; sourceTree = "<group>"; };
+		04850F5220B2C4A00059502E /* GGListExpandHideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGListExpandHideViewController.h; sourceTree = "<group>"; };
+		04850F5320B2C4A00059502E /* GGListExpandHideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGListExpandHideViewController.m; sourceTree = "<group>"; };
 		053CFFC01C63525B04CD472A /* Pods-GG_iOSProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GG_iOSProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GG_iOSProject/Pods-GG_iOSProject.debug.xcconfig"; sourceTree = "<group>"; };
 		23D8803416334F29F05B3867 /* libPods-GG_iOSProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GG_iOSProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F1933953208489214E24084 /* Pods-GG_iOSProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GG_iOSProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-GG_iOSProject/Pods-GG_iOSProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -242,6 +254,8 @@
 				0440D40F208D7BA400FF1D5E /* AppDelegate.m */,
 				042FCB3220AAC78D0020B7DD /* AppDelegate+AppService.h */,
 				042FCB3320AAC78D0020B7DD /* AppDelegate+AppService.m */,
+				04850ED020B2A3660059502E /* testViewController.h */,
+				04850ED120B2A3660059502E /* testViewController.m */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -370,6 +384,7 @@
 		0440D40D208D7BA400FF1D5E /* GG_iOSProject */ = {
 			isa = PBXGroup;
 			children = (
+				04850ECC20B2734F0059502E /* 预演 */,
 				042FCB2720AAC59C0020B7DD /* Classes */,
 				0440D417208D7BA500FF1D5E /* Assets.xcassets */,
 				0440D41C208D7BA500FF1D5E /* Info.plist */,
@@ -451,6 +466,19 @@
 				04439FAC20A18B3000798568 /* JPFPSStatus.m */,
 			);
 			path = "JPFPSStatus(FPS层)";
+			sourceTree = "<group>";
+		};
+		04850ECC20B2734F0059502E /* 预演 */ = {
+			isa = PBXGroup;
+			children = (
+				04850ECD20B273980059502E /* GGTestRefreshTableViewController.h */,
+				04850ECE20B273980059502E /* GGTestRefreshTableViewController.m */,
+				04850F4F20B2AF160059502E /* GGAnimationNavBarViewController.h */,
+				04850F5020B2AF160059502E /* GGAnimationNavBarViewController.m */,
+				04850F5220B2C4A00059502E /* GGListExpandHideViewController.h */,
+				04850F5320B2C4A00059502E /* GGListExpandHideViewController.m */,
+			);
+			path = "预演";
 			sourceTree = "<group>";
 		};
 		2E4A687631CDD4E151715664 /* Pods */ = {
@@ -627,27 +655,17 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-GG_iOSProject/Pods-GG_iOSProject-resources.sh",
 				"${PODS_ROOT}/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/Resources/mapapi.bundle",
 				"${PODS_ROOT}/HMEmoticon/表情键盘/Emoticon/HMEmoticon.bundle",
-				"${PODS_ROOT}/HMQRCodeScanner/HMQRCodeScanner/QRCode/HMScanner.bundle",
 				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
-				"${PODS_ROOT}/MOFSPickerManager/MOFSPickerManagerDemo/MOFSPickerManager/province_data.xml",
-				"${PODS_ROOT}/MagicWindowSDK/MagicWindowSDK/MagicWindowSDK/MagicWindow.bundle",
-				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
 				"${PODS_ROOT}/UMCShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle",
-				"${PODS_ROOT}/ZFPlayer/ZFPlayer/ZFPlayer.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mapapi.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HMEmoticon.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HMScanner.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/province_data.xml",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MagicWindow.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZFPlayer.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -670,11 +688,13 @@
 				042FCC2F20AE86300020B7DD /* GGTextViewController.m in Sources */,
 				04850EC220B262460059502E /* GGHomeViewController.m in Sources */,
 				04850EBF20B261AD0059502E /* GGTabBarController.m in Sources */,
+				04850ECF20B273980059502E /* GGTestRefreshTableViewController.m in Sources */,
 				04439F9E20A1761200798568 /* GGIntroductoryPagesGIFOperation.m in Sources */,
 				0440D41E208D7BA500FF1D5E /* main.m in Sources */,
 				04439F8F20A13F2F00798568 /* GGIntroductoryPagesHelper.m in Sources */,
 				04439F9320A1413F00798568 /* GGIntroductoryPagesView.m in Sources */,
 				04850EB920B24CB40059502E /* GGRefreshTableViewController.m in Sources */,
+				04850F5420B2C4A00059502E /* GGListExpandHideViewController.m in Sources */,
 				04439FA220A179C300798568 /* GGAdvertisingHelper.m in Sources */,
 				0440D410208D7BA400FF1D5E /* AppDelegate.m in Sources */,
 				04850EC520B2625E0059502E /* GGNewViewController.m in Sources */,
@@ -682,8 +702,10 @@
 				042FCC4920AEB8F70020B7DD /* GGItemSection.m in Sources */,
 				040384B720A5284A00B369DB /* GGEasyBlankView.m in Sources */,
 				042FCC2B20AE6EC90020B7DD /* UIView+GGFrame.m in Sources */,
+				04850ED220B2A3660059502E /* testViewController.m in Sources */,
 				042FCC3720AEAF560020B7DD /* MBProgressHUD+NHAdd.m in Sources */,
 				04850ECB20B2627D0059502E /* GGCasesViewController.m in Sources */,
+				04850F5120B2AF160059502E /* GGAnimationNavBarViewController.m in Sources */,
 				04439FA520A179D600798568 /* GGAdvertisingView.m in Sources */,
 				04850EBC20B24CCF0059502E /* GGRefreshCollectionViewController.m in Sources */,
 				042FCC2420AE669F0020B7DD /* GGNavUIBaseViewController.m in Sources */,

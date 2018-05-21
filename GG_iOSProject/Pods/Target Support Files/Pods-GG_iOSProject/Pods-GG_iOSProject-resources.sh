@@ -94,26 +94,16 @@ EOM
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_ROOT}/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/Resources/mapapi.bundle"
   install_resource "${PODS_ROOT}/HMEmoticon/表情键盘/Emoticon/HMEmoticon.bundle"
-  install_resource "${PODS_ROOT}/HMQRCodeScanner/HMQRCodeScanner/QRCode/HMScanner.bundle"
   install_resource "${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle"
   install_resource "${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle"
-  install_resource "${PODS_ROOT}/MOFSPickerManager/MOFSPickerManagerDemo/MOFSPickerManager/province_data.xml"
-  install_resource "${PODS_ROOT}/MagicWindowSDK/MagicWindowSDK/MagicWindowSDK/MagicWindow.bundle"
-  install_resource "${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle"
   install_resource "${PODS_ROOT}/UMCShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle"
-  install_resource "${PODS_ROOT}/ZFPlayer/ZFPlayer/ZFPlayer.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_ROOT}/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/Resources/mapapi.bundle"
   install_resource "${PODS_ROOT}/HMEmoticon/表情键盘/Emoticon/HMEmoticon.bundle"
-  install_resource "${PODS_ROOT}/HMQRCodeScanner/HMQRCodeScanner/QRCode/HMScanner.bundle"
   install_resource "${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle"
   install_resource "${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle"
-  install_resource "${PODS_ROOT}/MOFSPickerManager/MOFSPickerManagerDemo/MOFSPickerManager/province_data.xml"
-  install_resource "${PODS_ROOT}/MagicWindowSDK/MagicWindowSDK/MagicWindowSDK/MagicWindow.bundle"
-  install_resource "${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle"
   install_resource "${PODS_ROOT}/UMCShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle"
-  install_resource "${PODS_ROOT}/ZFPlayer/ZFPlayer/ZFPlayer.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

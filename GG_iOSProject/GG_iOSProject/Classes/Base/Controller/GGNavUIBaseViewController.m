@@ -88,7 +88,15 @@
 //- (UIView *)gg_navigationBarTitleView:(GGNavigatrionBar *)navigationBar{}
 
 /** 导航条左边的按钮 */
-//- (UIImage *)gg_navigationBarLeftButtonImage:(UIButton *)leftButton navigationBar:(GGNavigatrionBar *)navigationBar{}
+- (UIImage *)gg_navigationBarLeftButtonImage:(UIButton *)leftButton navigationBar:(GGNavigatrionBar *)navigationBar{
+    if(self.navigationController.viewControllers.count>1)
+    {
+        [leftButton setImage:[UIImage imageNamed:@"NavgationBar_white_back"] forState:UIControlStateHighlighted];
+        return [UIImage imageNamed:@"NavgationBar_blue_back"];
+    }else{
+        return nil;
+    }
+}
 
 /** 导航条右边的按钮 */
 //- (UIImage *)gg_navigationBarRightButtonImage:(UIButton *)rightButton navigationBar:(GGNavigatrionBar *)navigationBar{}
@@ -96,6 +104,10 @@
 #pragma mark - Delegate
 - (void)gg_leftButtonEvent:(UIButton *)sender navigationBar:(GGNavigatrionBar *)navigationBar{
     NSLog(@"%s", __func__);
+    if(self.navigationController.viewControllers.count>1)
+    {
+        [self.navigationController popViewControllerAnimated:YES];
+    }
 }
 
 - (void)gg_rightButtonEvent:(UIButton *)sender navigationBar:(GGNavigatrionBar *)navigationBar{

@@ -9,6 +9,7 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
+#import <Masonry.h>
 #import <YYCategories.h>
 #import <IQKeyboardManager.h>
 #import <Reachability.h>
