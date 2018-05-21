@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040384B720A5284A00B369DB /* GGEasyBlankView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040384B620A5284A00B369DB /* GGEasyBlankView.m */; };
+		040384BA20A5287C00B369DB /* GGEasyBlankDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040384B920A5287C00B369DB /* GGEasyBlankDemoViewController.m */; };
+		042FCB3420AAC78D0020B7DD /* AppDelegate+AppService.m in Sources */ = {isa = PBXBuildFile; fileRef = 042FCB3320AAC78D0020B7DD /* AppDelegate+AppService.m */; };
+		042FCC2420AE669F0020B7DD /* GGNavUIBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042FCC2020AE669E0020B7DD /* GGNavUIBaseViewController.m */; };
+		042FCC2520AE669F0020B7DD /* GGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042FCC2120AE669E0020B7DD /* GGNavigationController.m */; };
+		042FCC2820AE66C60020B7DD /* GGNavigatrionBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 042FCC2720AE66C60020B7DD /* GGNavigatrionBar.m */; };
+		042FCC2B20AE6EC90020B7DD /* UIView+GGFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 042FCC2A20AE6EC90020B7DD /* UIView+GGFrame.m */; };
+		042FCC2F20AE86300020B7DD /* GGTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042FCC2E20AE86300020B7DD /* GGTextViewController.m */; };
+		042FCC3220AEAD910020B7DD /* GGRequestBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042FCC3120AEAD910020B7DD /* GGRequestBaseViewController.m */; };
+		042FCC3720AEAF560020B7DD /* MBProgressHUD+NHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 042FCC3620AEAF560020B7DD /* MBProgressHUD+NHAdd.m */; };
+		042FCC3A20AEB0D60020B7DD /* GGBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042FCC3920AEB0D60020B7DD /* GGBaseViewController.m */; };
+		042FCC3D20AEB26E0020B7DD /* GGTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042FCC3C20AEB26E0020B7DD /* GGTableViewController.m */; };
+		042FCC4020AEB7AA0020B7DD /* GGStaticTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042FCC3F20AEB7AA0020B7DD /* GGStaticTableViewController.m */; };
+		042FCC4320AEB8C80020B7DD /* GGWorldItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 042FCC4220AEB8C80020B7DD /* GGWorldItem.m */; };
+		042FCC4620AEB8E60020B7DD /* GGWordArrowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 042FCC4520AEB8E60020B7DD /* GGWordArrowItem.m */; };
+		042FCC4920AEB8F70020B7DD /* GGItemSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 042FCC4820AEB8F70020B7DD /* GGItemSection.m */; };
+		042FCC4C20AEBBCC0020B7DD /* GGSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 042FCC4B20AEBBCC0020B7DD /* GGSettingCell.m */; };
+		042FCC4F20AEBEBD0020B7DD /* GGCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042FCC4E20AEBEBD0020B7DD /* GGCollectionViewController.m */; };
+		042FCC5220AEBFB40020B7DD /* GGVerticalFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 042FCC5120AEBFB40020B7DD /* GGVerticalFlowLayout.m */; };
+		042FCC5520AEBFC20020B7DD /* GGHorizontalFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 042FCC5420AEBFC20020B7DD /* GGHorizontalFlowLayout.m */; };
 		0440D410208D7BA400FF1D5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0440D40F208D7BA400FF1D5E /* AppDelegate.m */; };
 		0440D418208D7BA500FF1D5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0440D417208D7BA500FF1D5E /* Assets.xcassets */; };
 		0440D41E208D7BA500FF1D5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0440D41D208D7BA500FF1D5E /* main.m */; };
@@ -22,8 +42,13 @@
 		04439FA220A179C300798568 /* GGAdvertisingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04439FA120A179C300798568 /* GGAdvertisingHelper.m */; };
 		04439FA520A179D600798568 /* GGAdvertisingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04439FA420A179D600798568 /* GGAdvertisingView.m */; };
 		04439FAD20A18B3000798568 /* JPFPSStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 04439FAC20A18B3000798568 /* JPFPSStatus.m */; };
-		04439FB120A1936300798568 /* GGUmengHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04439FB020A1936300798568 /* GGUmengHelper.m */; };
-		04439FB420A1A48600798568 /* GGBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04439FB320A1A48600798568 /* GGBaseViewController.m */; };
+		04850EB920B24CB40059502E /* GGRefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04850EB820B24CB40059502E /* GGRefreshTableViewController.m */; };
+		04850EBC20B24CCF0059502E /* GGRefreshCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04850EBB20B24CCF0059502E /* GGRefreshCollectionViewController.m */; };
+		04850EBF20B261AD0059502E /* GGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04850EBE20B261AD0059502E /* GGTabBarController.m */; };
+		04850EC220B262460059502E /* GGHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04850EC120B262460059502E /* GGHomeViewController.m */; };
+		04850EC520B2625E0059502E /* GGNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04850EC420B2625E0059502E /* GGNewViewController.m */; };
+		04850EC820B2626F0059502E /* GGMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04850EC720B2626F0059502E /* GGMessageViewController.m */; };
+		04850ECB20B2627D0059502E /* GGCasesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04850ECA20B2627D0059502E /* GGCasesViewController.m */; };
 		109A07A937C681E82AD7864E /* libPods-GG_iOSProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23D8803416334F29F05B3867 /* libPods-GG_iOSProject.a */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +70,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040384B520A5284A00B369DB /* GGEasyBlankView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGEasyBlankView.h; sourceTree = "<group>"; };
+		040384B620A5284A00B369DB /* GGEasyBlankView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGEasyBlankView.m; sourceTree = "<group>"; };
+		040384B820A5287C00B369DB /* GGEasyBlankDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGEasyBlankDemoViewController.h; sourceTree = "<group>"; };
+		040384B920A5287C00B369DB /* GGEasyBlankDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGEasyBlankDemoViewController.m; sourceTree = "<group>"; };
+		042FCB3220AAC78D0020B7DD /* AppDelegate+AppService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+AppService.h"; sourceTree = "<group>"; };
+		042FCB3320AAC78D0020B7DD /* AppDelegate+AppService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+AppService.m"; sourceTree = "<group>"; };
+		042FCC1F20AE669E0020B7DD /* GGNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGNavigationController.h; sourceTree = "<group>"; };
+		042FCC2020AE669E0020B7DD /* GGNavUIBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGNavUIBaseViewController.m; sourceTree = "<group>"; };
+		042FCC2120AE669E0020B7DD /* GGNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGNavigationController.m; sourceTree = "<group>"; };
+		042FCC2220AE669E0020B7DD /* GGNavUIBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGNavUIBaseViewController.h; sourceTree = "<group>"; };
+		042FCC2620AE66C60020B7DD /* GGNavigatrionBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGNavigatrionBar.h; sourceTree = "<group>"; };
+		042FCC2720AE66C60020B7DD /* GGNavigatrionBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGNavigatrionBar.m; sourceTree = "<group>"; };
+		042FCC2920AE6EC90020B7DD /* UIView+GGFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+GGFrame.h"; sourceTree = "<group>"; };
+		042FCC2A20AE6EC90020B7DD /* UIView+GGFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+GGFrame.m"; sourceTree = "<group>"; };
+		042FCC2C20AE788A0020B7DD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		042FCC2D20AE86300020B7DD /* GGTextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGTextViewController.h; sourceTree = "<group>"; };
+		042FCC2E20AE86300020B7DD /* GGTextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGTextViewController.m; sourceTree = "<group>"; };
+		042FCC3020AEAD910020B7DD /* GGRequestBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGRequestBaseViewController.h; sourceTree = "<group>"; };
+		042FCC3120AEAD910020B7DD /* GGRequestBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGRequestBaseViewController.m; sourceTree = "<group>"; };
+		042FCC3420AEAF560020B7DD /* MBProgressHUD_NHExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD_NHExtend.h; sourceTree = "<group>"; };
+		042FCC3520AEAF560020B7DD /* MBProgressHUD+NHAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+NHAdd.h"; sourceTree = "<group>"; };
+		042FCC3620AEAF560020B7DD /* MBProgressHUD+NHAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+NHAdd.m"; sourceTree = "<group>"; };
+		042FCC3820AEB0D60020B7DD /* GGBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGBaseViewController.h; sourceTree = "<group>"; };
+		042FCC3920AEB0D60020B7DD /* GGBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGBaseViewController.m; sourceTree = "<group>"; };
+		042FCC3B20AEB26E0020B7DD /* GGTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGTableViewController.h; sourceTree = "<group>"; };
+		042FCC3C20AEB26E0020B7DD /* GGTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGTableViewController.m; sourceTree = "<group>"; };
+		042FCC3E20AEB7AA0020B7DD /* GGStaticTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGStaticTableViewController.h; sourceTree = "<group>"; };
+		042FCC3F20AEB7AA0020B7DD /* GGStaticTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGStaticTableViewController.m; sourceTree = "<group>"; };
+		042FCC4120AEB8C80020B7DD /* GGWorldItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGWorldItem.h; sourceTree = "<group>"; };
+		042FCC4220AEB8C80020B7DD /* GGWorldItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGWorldItem.m; sourceTree = "<group>"; };
+		042FCC4420AEB8E60020B7DD /* GGWordArrowItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGWordArrowItem.h; sourceTree = "<group>"; };
+		042FCC4520AEB8E60020B7DD /* GGWordArrowItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGWordArrowItem.m; sourceTree = "<group>"; };
+		042FCC4720AEB8F70020B7DD /* GGItemSection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGItemSection.h; sourceTree = "<group>"; };
+		042FCC4820AEB8F70020B7DD /* GGItemSection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGItemSection.m; sourceTree = "<group>"; };
+		042FCC4A20AEBBCC0020B7DD /* GGSettingCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGSettingCell.h; sourceTree = "<group>"; };
+		042FCC4B20AEBBCC0020B7DD /* GGSettingCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGSettingCell.m; sourceTree = "<group>"; };
+		042FCC4D20AEBEBD0020B7DD /* GGCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGCollectionViewController.h; sourceTree = "<group>"; };
+		042FCC4E20AEBEBD0020B7DD /* GGCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGCollectionViewController.m; sourceTree = "<group>"; };
+		042FCC5020AEBFB40020B7DD /* GGVerticalFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGVerticalFlowLayout.h; sourceTree = "<group>"; };
+		042FCC5120AEBFB40020B7DD /* GGVerticalFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGVerticalFlowLayout.m; sourceTree = "<group>"; };
+		042FCC5320AEBFC20020B7DD /* GGHorizontalFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGHorizontalFlowLayout.h; sourceTree = "<group>"; };
+		042FCC5420AEBFC20020B7DD /* GGHorizontalFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGHorizontalFlowLayout.m; sourceTree = "<group>"; };
 		0440D40B208D7BA400FF1D5E /* GG_iOSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GG_iOSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0440D40E208D7BA400FF1D5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0440D40F208D7BA400FF1D5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -73,10 +140,20 @@
 		04439FA420A179D600798568 /* GGAdvertisingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGAdvertisingView.m; sourceTree = "<group>"; };
 		04439FAB20A18B3000798568 /* JPFPSStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPFPSStatus.h; sourceTree = "<group>"; };
 		04439FAC20A18B3000798568 /* JPFPSStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPFPSStatus.m; sourceTree = "<group>"; };
-		04439FAF20A1936300798568 /* GGUmengHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGUmengHelper.h; sourceTree = "<group>"; };
-		04439FB020A1936300798568 /* GGUmengHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGUmengHelper.m; sourceTree = "<group>"; };
-		04439FB220A1A48600798568 /* GGBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGBaseViewController.h; sourceTree = "<group>"; };
-		04439FB320A1A48600798568 /* GGBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGBaseViewController.m; sourceTree = "<group>"; };
+		04850EB720B24CB40059502E /* GGRefreshTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGRefreshTableViewController.h; sourceTree = "<group>"; };
+		04850EB820B24CB40059502E /* GGRefreshTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGRefreshTableViewController.m; sourceTree = "<group>"; };
+		04850EBA20B24CCF0059502E /* GGRefreshCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGRefreshCollectionViewController.h; sourceTree = "<group>"; };
+		04850EBB20B24CCF0059502E /* GGRefreshCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGRefreshCollectionViewController.m; sourceTree = "<group>"; };
+		04850EBD20B261AC0059502E /* GGTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTabBarController.h; sourceTree = "<group>"; };
+		04850EBE20B261AD0059502E /* GGTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTabBarController.m; sourceTree = "<group>"; };
+		04850EC020B262460059502E /* GGHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGHomeViewController.h; sourceTree = "<group>"; };
+		04850EC120B262460059502E /* GGHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGHomeViewController.m; sourceTree = "<group>"; };
+		04850EC320B2625E0059502E /* GGNewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGNewViewController.h; sourceTree = "<group>"; };
+		04850EC420B2625E0059502E /* GGNewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGNewViewController.m; sourceTree = "<group>"; };
+		04850EC620B2626F0059502E /* GGMessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGMessageViewController.h; sourceTree = "<group>"; };
+		04850EC720B2626F0059502E /* GGMessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGMessageViewController.m; sourceTree = "<group>"; };
+		04850EC920B2627D0059502E /* GGCasesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGCasesViewController.h; sourceTree = "<group>"; };
+		04850ECA20B2627D0059502E /* GGCasesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGCasesViewController.m; sourceTree = "<group>"; };
 		053CFFC01C63525B04CD472A /* Pods-GG_iOSProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GG_iOSProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GG_iOSProject/Pods-GG_iOSProject.debug.xcconfig"; sourceTree = "<group>"; };
 		23D8803416334F29F05B3867 /* libPods-GG_iOSProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GG_iOSProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F1933953208489214E24084 /* Pods-GG_iOSProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GG_iOSProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-GG_iOSProject/Pods-GG_iOSProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -108,6 +185,166 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		040384B420A5283700B369DB /* EasyBlank(出错及加载失败) */ = {
+			isa = PBXGroup;
+			children = (
+				040384B520A5284A00B369DB /* GGEasyBlankView.h */,
+				040384B620A5284A00B369DB /* GGEasyBlankView.m */,
+				040384B820A5287C00B369DB /* GGEasyBlankDemoViewController.h */,
+				040384B920A5287C00B369DB /* GGEasyBlankDemoViewController.m */,
+			);
+			path = "EasyBlank(出错及加载失败)";
+			sourceTree = "<group>";
+		};
+		042FCB2720AAC59C0020B7DD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				042FCB2B20AAC59C0020B7DD /* AppDelegate */,
+				042FCB2E20AAC59C0020B7DD /* Base */,
+				042FCB2C20AAC59C0020B7DD /* Main */,
+				042FCB2820AAC59C0020B7DD /* Define */,
+				042FCB2920AAC59C0020B7DD /* Category */,
+				042FCB2A20AAC59C0020B7DD /* Libs */,
+				042FCB2D20AAC59C0020B7DD /* Helpers */,
+				04439FA920A18AB700798568 /* Resources */,
+				04439F8C20A13EF000798568 /* Lib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		042FCB2820AAC59C0020B7DD /* Define */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		042FCB2920AAC59C0020B7DD /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				042FCC2920AE6EC90020B7DD /* UIView+GGFrame.h */,
+				042FCC2A20AE6EC90020B7DD /* UIView+GGFrame.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		042FCB2A20AAC59C0020B7DD /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		042FCB2B20AAC59C0020B7DD /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				0440D40E208D7BA400FF1D5E /* AppDelegate.h */,
+				0440D40F208D7BA400FF1D5E /* AppDelegate.m */,
+				042FCB3220AAC78D0020B7DD /* AppDelegate+AppService.h */,
+				042FCB3320AAC78D0020B7DD /* AppDelegate+AppService.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		042FCB2C20AAC59C0020B7DD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				04850EBD20B261AC0059502E /* GGTabBarController.h */,
+				04850EBE20B261AD0059502E /* GGTabBarController.m */,
+				04850EC020B262460059502E /* GGHomeViewController.h */,
+				04850EC120B262460059502E /* GGHomeViewController.m */,
+				04850EC320B2625E0059502E /* GGNewViewController.h */,
+				04850EC420B2625E0059502E /* GGNewViewController.m */,
+				04850EC620B2626F0059502E /* GGMessageViewController.h */,
+				04850EC720B2626F0059502E /* GGMessageViewController.m */,
+				04850EC920B2627D0059502E /* GGCasesViewController.h */,
+				04850ECA20B2627D0059502E /* GGCasesViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		042FCB2D20AAC59C0020B7DD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		042FCB2E20AAC59C0020B7DD /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				042FCC1E20AE669E0020B7DD /* Controller */,
+				042FCC1D20AE669E0020B7DD /* Model */,
+				042FCC2320AE669E0020B7DD /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		042FCC1D20AE669E0020B7DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				042FCC4120AEB8C80020B7DD /* GGWorldItem.h */,
+				042FCC4220AEB8C80020B7DD /* GGWorldItem.m */,
+				042FCC4420AEB8E60020B7DD /* GGWordArrowItem.h */,
+				042FCC4520AEB8E60020B7DD /* GGWordArrowItem.m */,
+				042FCC4720AEB8F70020B7DD /* GGItemSection.h */,
+				042FCC4820AEB8F70020B7DD /* GGItemSection.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		042FCC1E20AE669E0020B7DD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				042FCC1F20AE669E0020B7DD /* GGNavigationController.h */,
+				042FCC2120AE669E0020B7DD /* GGNavigationController.m */,
+				042FCC2220AE669E0020B7DD /* GGNavUIBaseViewController.h */,
+				042FCC2020AE669E0020B7DD /* GGNavUIBaseViewController.m */,
+				042FCC2D20AE86300020B7DD /* GGTextViewController.h */,
+				042FCC2E20AE86300020B7DD /* GGTextViewController.m */,
+				042FCC3020AEAD910020B7DD /* GGRequestBaseViewController.h */,
+				042FCC3120AEAD910020B7DD /* GGRequestBaseViewController.m */,
+				042FCC3820AEB0D60020B7DD /* GGBaseViewController.h */,
+				042FCC3920AEB0D60020B7DD /* GGBaseViewController.m */,
+				042FCC3B20AEB26E0020B7DD /* GGTableViewController.h */,
+				042FCC3C20AEB26E0020B7DD /* GGTableViewController.m */,
+				042FCC3E20AEB7AA0020B7DD /* GGStaticTableViewController.h */,
+				042FCC3F20AEB7AA0020B7DD /* GGStaticTableViewController.m */,
+				042FCC4D20AEBEBD0020B7DD /* GGCollectionViewController.h */,
+				042FCC4E20AEBEBD0020B7DD /* GGCollectionViewController.m */,
+				04850EB720B24CB40059502E /* GGRefreshTableViewController.h */,
+				04850EB820B24CB40059502E /* GGRefreshTableViewController.m */,
+				04850EBA20B24CCF0059502E /* GGRefreshCollectionViewController.h */,
+				04850EBB20B24CCF0059502E /* GGRefreshCollectionViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		042FCC2320AE669E0020B7DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				042FCC2620AE66C60020B7DD /* GGNavigatrionBar.h */,
+				042FCC2720AE66C60020B7DD /* GGNavigatrionBar.m */,
+				042FCC4A20AEBBCC0020B7DD /* GGSettingCell.h */,
+				042FCC4B20AEBBCC0020B7DD /* GGSettingCell.m */,
+				042FCC5020AEBFB40020B7DD /* GGVerticalFlowLayout.h */,
+				042FCC5120AEBFB40020B7DD /* GGVerticalFlowLayout.m */,
+				042FCC5320AEBFC20020B7DD /* GGHorizontalFlowLayout.h */,
+				042FCC5420AEBFC20020B7DD /* GGHorizontalFlowLayout.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		042FCC3320AEAF560020B7DD /* NHHUDExtend */ = {
+			isa = PBXGroup;
+			children = (
+				042FCC3420AEAF560020B7DD /* MBProgressHUD_NHExtend.h */,
+				042FCC3520AEAF560020B7DD /* MBProgressHUD+NHAdd.h */,
+				042FCC3620AEAF560020B7DD /* MBProgressHUD+NHAdd.m */,
+			);
+			path = NHHUDExtend;
+			sourceTree = "<group>";
+		};
 		0440D402208D7BA400FF1D5E = {
 			isa = PBXGroup;
 			children = (
@@ -133,15 +370,11 @@
 		0440D40D208D7BA400FF1D5E /* GG_iOSProject */ = {
 			isa = PBXGroup;
 			children = (
-				04439F8C20A13EF000798568 /* Lib */,
-				0440D40E208D7BA400FF1D5E /* AppDelegate.h */,
-				0440D40F208D7BA400FF1D5E /* AppDelegate.m */,
-				04439FB220A1A48600798568 /* GGBaseViewController.h */,
-				04439FB320A1A48600798568 /* GGBaseViewController.m */,
+				042FCB2720AAC59C0020B7DD /* Classes */,
 				0440D417208D7BA500FF1D5E /* Assets.xcassets */,
 				0440D41C208D7BA500FF1D5E /* Info.plist */,
 				0440D41D208D7BA500FF1D5E /* main.m */,
-				04439FA920A18AB700798568 /* Resources */,
+				042FCC2C20AE788A0020B7DD /* PrefixHeader.pch */,
 			);
 			path = GG_iOSProject;
 			sourceTree = "<group>";
@@ -167,7 +400,8 @@
 		04439F8C20A13EF000798568 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				04439FAE20A1931500798568 /* UMengHelper(友盟相关) */,
+				042FCC3320AEAF560020B7DD /* NHHUDExtend */,
+				040384B420A5283700B369DB /* EasyBlank(出错及加载失败) */,
 				04439FAA20A18B3000798568 /* JPFPSStatus(FPS层) */,
 				04439F9F20A1799100798568 /* advertising(广告页) */,
 				04439F9020A13F4900798568 /* IntroductoryPages(引导页) */,
@@ -217,15 +451,6 @@
 				04439FAC20A18B3000798568 /* JPFPSStatus.m */,
 			);
 			path = "JPFPSStatus(FPS层)";
-			sourceTree = "<group>";
-		};
-		04439FAE20A1931500798568 /* UMengHelper(友盟相关) */ = {
-			isa = PBXGroup;
-			children = (
-				04439FAF20A1936300798568 /* GGUmengHelper.h */,
-				04439FB020A1936300798568 /* GGUmengHelper.m */,
-			);
-			path = "UMengHelper(友盟相关)";
 			sourceTree = "<group>";
 		};
 		2E4A687631CDD4E151715664 /* Pods */ = {
@@ -436,16 +661,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042FCC4F20AEBEBD0020B7DD /* GGCollectionViewController.m in Sources */,
+				042FCC5520AEBFC20020B7DD /* GGHorizontalFlowLayout.m in Sources */,
+				042FCC2520AE669F0020B7DD /* GGNavigationController.m in Sources */,
+				042FCB3420AAC78D0020B7DD /* AppDelegate+AppService.m in Sources */,
+				042FCC2820AE66C60020B7DD /* GGNavigatrionBar.m in Sources */,
+				042FCC4620AEB8E60020B7DD /* GGWordArrowItem.m in Sources */,
+				042FCC2F20AE86300020B7DD /* GGTextViewController.m in Sources */,
+				04850EC220B262460059502E /* GGHomeViewController.m in Sources */,
+				04850EBF20B261AD0059502E /* GGTabBarController.m in Sources */,
 				04439F9E20A1761200798568 /* GGIntroductoryPagesGIFOperation.m in Sources */,
 				0440D41E208D7BA500FF1D5E /* main.m in Sources */,
 				04439F8F20A13F2F00798568 /* GGIntroductoryPagesHelper.m in Sources */,
 				04439F9320A1413F00798568 /* GGIntroductoryPagesView.m in Sources */,
+				04850EB920B24CB40059502E /* GGRefreshTableViewController.m in Sources */,
 				04439FA220A179C300798568 /* GGAdvertisingHelper.m in Sources */,
-				04439FB420A1A48600798568 /* GGBaseViewController.m in Sources */,
 				0440D410208D7BA400FF1D5E /* AppDelegate.m in Sources */,
-				04439FB120A1936300798568 /* GGUmengHelper.m in Sources */,
+				04850EC520B2625E0059502E /* GGNewViewController.m in Sources */,
+				042FCC3220AEAD910020B7DD /* GGRequestBaseViewController.m in Sources */,
+				042FCC4920AEB8F70020B7DD /* GGItemSection.m in Sources */,
+				040384B720A5284A00B369DB /* GGEasyBlankView.m in Sources */,
+				042FCC2B20AE6EC90020B7DD /* UIView+GGFrame.m in Sources */,
+				042FCC3720AEAF560020B7DD /* MBProgressHUD+NHAdd.m in Sources */,
+				04850ECB20B2627D0059502E /* GGCasesViewController.m in Sources */,
 				04439FA520A179D600798568 /* GGAdvertisingView.m in Sources */,
+				04850EBC20B24CCF0059502E /* GGRefreshCollectionViewController.m in Sources */,
+				042FCC2420AE669F0020B7DD /* GGNavUIBaseViewController.m in Sources */,
+				042FCC3D20AEB26E0020B7DD /* GGTableViewController.m in Sources */,
+				04850EC820B2626F0059502E /* GGMessageViewController.m in Sources */,
+				040384BA20A5287C00B369DB /* GGEasyBlankDemoViewController.m in Sources */,
 				04439FAD20A18B3000798568 /* JPFPSStatus.m in Sources */,
+				042FCC4320AEB8C80020B7DD /* GGWorldItem.m in Sources */,
+				042FCC4C20AEBBCC0020B7DD /* GGSettingCell.m in Sources */,
+				042FCC4020AEB7AA0020B7DD /* GGStaticTableViewController.m in Sources */,
+				042FCC3A20AEB0D60020B7DD /* GGBaseViewController.m in Sources */,
+				042FCC5220AEBFB40020B7DD /* GGVerticalFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,6 +848,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 36TU8BA6F5;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				GCC_PREFIX_HEADER = /Users/mac/Desktop/GGProject/GG_iOSProject/GG_iOSProject/PrefixHeader.pch;
 				INFOPLIST_FILE = GG_iOSProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -617,6 +869,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 36TU8BA6F5;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				GCC_PREFIX_HEADER = /Users/mac/Desktop/GGProject/GG_iOSProject/GG_iOSProject/PrefixHeader.pch;
 				INFOPLIST_FILE = GG_iOSProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
